@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Room
+comment0.text=\r\n\ Classe\ Room\ -\ un\ lieu\ du\ jeu\ d'aventure\ Zuul.\r\n\r\n\ @author\ Simon\ ROPIOT\r\n\ @version\ 2025.02.20\r\n
+comment1.params=pDescription
+comment1.target=Room(java.lang.String)
+comment1.text=\r\n\ Constructeur\ de\ la\ classe\ Room.\r\n\ Cr\u00E9e\ une\ pi\u00E8ce\ d\u00E9crite\ par\ la\ cha\u00EEne\ "description".\r\n\ Au\ d\u00E9part,\ il\ n'y\ a\ aucune\ sortie.\r\n\ @param\ pDescription\ La\ description\ de\ la\ pi\u00E8ce\ (ex\:\ "dans\ la\ cuisine").\r\n
+comment2.params=
+comment2.target=java.lang.String\ getDescription()
+comment2.text=\r\n\ Retourne\ la\ description\ de\ la\ pi\u00E8ce\ (telle\ que\ d\u00E9finie\ dans\ le\ constructeur).\r\n\ @return\ La\ description\ de\ la\ pi\u00E8ce.\r\n
+comment3.params=pDirection\ pNeighbor
+comment3.target=void\ setExit(java.lang.String,\ Room)
+comment3.text=\r\n\ D\u00E9finit\ une\ sortie\ pour\ cette\ pi\u00E8ce.\r\n\ @param\ pDirection\ La\ direction\ de\ la\ sortie\ (ex\:\ "north").\r\n\ @param\ pNeighbor\ La\ pi\u00E8ce\ voisine\ dans\ cette\ direction.\r\n
+comment4.params=pDirection
+comment4.target=Room\ getExit(java.lang.String)
+comment4.text=\r\n\ Retourne\ la\ pi\u00E8ce\ atteinte\ si\ nous\ nous\ d\u00E9pla\u00E7ons\ dans\ la\ direction\ pDirection.\r\n\ Si\ il\ n'y\ a\ pas\ de\ sortie\ dans\ cette\ direction,\ retourne\ null.\r\n\ @param\ pDirection\ La\ direction\ souhait\u00E9e.\r\n\ @return\ La\ pi\u00E8ce\ dans\ la\ direction\ donn\u00E9e,\ ou\ null.\r\n
+comment5.params=
+comment5.target=java.lang.String\ getExitString()
+comment5.text=\r\n\ Retourne\ une\ cha\u00EEne\ d\u00E9crivant\ les\ sorties\ de\ la\ pi\u00E8ce,\r\n\ par\ exemple\ "north\ east\ west".\r\n\ Utilise\ un\ StringBuilder\ pour\ construire\ la\ cha\u00EEne.\r\n\ @return\ Une\ description\ des\ sorties\ disponibles.\r\n
+comment6.params=
+comment6.target=java.lang.String\ getLongDescription()
+comment6.text=\r\n\ Retourne\ une\ description\ longue\ de\ la\ pi\u00E8ce,\ de\ la\ forme\:\r\n\ \ \ \ \ Vous\ \u00EAtes\ dans\ la\ cuisine.\r\n\ \ \ \ \ Sorties\:\ north\ west\r\n\ @return\ Une\ description\ compl\u00E8te\ de\ la\ pi\u00E8ce\ et\ de\ ses\ sorties.\r\n
+numComments=7

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Parser
+comment0.text=\r\n\ Cette\ classe\ fait\ partie\ du\ jeu\ "World\ of\ Zuul".\r\n\ "World\ of\ Zuul"\ est\ un\ jeu\ d'aventure\ tr\u00E8s\ simple,\ bas\u00E9\ sur\ du\ texte.\r\n\ \r\n\ Cet\ analyseur\ lit\ les\ entr\u00E9es\ utilisateur\ et\ essaie\ de\ les\ interpr\u00E9ter\ comme\ une\ commande\r\n\ d'aventure.\ Chaque\ fois\ qu'il\ est\ appel\u00E9,\ il\ lit\ une\ ligne\ du\ terminal\ et\r\n\ tente\ d'interpr\u00E9ter\ la\ ligne\ comme\ une\ commande\ \u00E0\ deux\ mots.\ Il\ retourne\ la\ commande\r\n\ sous\ forme\ d'un\ objet\ de\ la\ classe\ Command.\r\n\r\n\ L'analyseur\ a\ un\ ensemble\ de\ mots\ de\ commande\ connus.\ Il\ v\u00E9rifie\ l'entr\u00E9e\ utilisateur\ par\ rapport\r\n\ aux\ commandes\ connues,\ et\ si\ l'entr\u00E9e\ n'est\ pas\ l'une\ des\ commandes\ connues,\ il\r\n\ retourne\ un\ objet\ commande\ marqu\u00E9\ comme\ une\ commande\ inconnue.\r\n\ \r\n\ @author\ \ Michael\ Kolling\ and\ David\ J.\ Barnes\ +\ D.Bureau\r\n\ @version\ 2008.03.30\ +\ 2013.09.15\r\n
+comment1.params=
+comment1.target=Parser()
+comment1.text=\r\n\ Constructeur\ par\ d\u00E9faut\ qui\ cr\u00E9e\ les\ 2\ objets\ pr\u00E9vus\ pour\ les\ attributs.\r\n
+comment2.params=
+comment2.target=Command\ getCommand()
+comment2.text=\r\n\ R\u00E9cup\u00E8re\ la\ commande\ suivante\ de\ l'utilisateur.\r\n\ @return\ La\ prochaine\ commande\ de\ l'utilisateur.\r\n
+comment3.params=
+comment3.target=void\ showCommands()
+comment3.text=\r\n\ Affiche\ la\ liste\ de\ tous\ les\ mots\ de\ commande\ valides.\r\n
+numComments=4

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Command
+comment0.text=\r\n\ Classe\ Command\ -\ une\ commande\ du\ jeu\ d'aventure\ Zuul.\r\n\r\n\ Cette\ classe\ contient\ les\ informations\ sur\ la\ commande\ utilisateur\ \:\r\n\ le\ mot\ de\ commande\ (ex\:\ "go")\ et\ le\ second\ mot\ \u00E9ventuel\ (ex\:\ "north").\r\n\r\n\ @author\ Simon\ ROPIOT\r\n\ @version\ 2025.02.20\r\n
+comment1.params=pCommandWord\ pSecondWord
+comment1.target=Command(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Cr\u00E9e\ un\ objet\ commande.\ Le\ premier\ et\ le\ second\ mot\ doivent\ \u00EAtre\ fournis,\r\n\ mais\ l'un\ ou\ l'autre\ (ou\ les\ deux)\ peuvent\ \u00EAtre\ null.\r\n\ @param\ pCommandWord\ Le\ premier\ mot\ de\ la\ commande.\ Null\ si\ la\ commande\ n'est\ pas\ reconnue.\r\n\ @param\ pSecondWord\ Le\ second\ mot\ de\ la\ commande.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getCommandWord()
+comment2.text=\r\n\ Retourne\ le\ mot\ de\ commande\ (le\ premier\ mot)\ de\ cette\ commande.\r\n\ Si\ la\ commande\ n'\u00E9tait\ pas\ comprise,\ le\ r\u00E9sultat\ est\ null.\r\n\ @return\ Le\ mot\ de\ commande.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getSecondWord()
+comment3.text=\r\n\ Retourne\ le\ second\ mot\ de\ cette\ commande.\r\n\ Retourne\ null\ s'il\ n'y\ avait\ pas\ de\ second\ mot.\r\n\ @return\ Le\ second\ mot\ de\ la\ commande.\r\n
+comment4.params=
+comment4.target=boolean\ hasSecondWord()
+comment4.text=\r\n\ V\u00E9rifie\ si\ la\ commande\ a\ un\ second\ mot.\r\n\ @return\ true\ si\ la\ commande\ a\ un\ second\ mot,\ false\ sinon.\r\n
+comment5.params=
+comment5.target=boolean\ isUnknown()
+comment5.text=\r\n\ V\u00E9rifie\ si\ la\ commande\ est\ inconnue.\r\n\ @return\ true\ si\ la\ commande\ est\ inconnue,\ false\ sinon.\r\n
+numComments=6
